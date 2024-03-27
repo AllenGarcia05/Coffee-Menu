@@ -1,0 +1,206 @@
+v<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fcd8a9;
+        }
+        
+        .header {
+            text-align: center;
+            background-color: #bf935a;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            justify-content: space-between;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: burlywood;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: burlywood;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+        }
+        .coffee-item {
+            width: calc(50% - 20px);
+            margin-bottom: 40px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: #fcd8a9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+        }
+        .coffee-item:hover {
+            transform: translateY(-5px);
+        }
+        .coffee-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .coffee-item h2 {
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .coffee-item p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Coffee Menu</h1>
+</div>
+
+<div class="container">
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\cafe-latte.jpg" alt="Latte">
+        <h2>Latte $2.00</h2>
+        <p>Lattes are usually considered to be an introductory coffee drink because their bitterness is cut by the amount of milk in the beverage.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\cappucino.jpg" alt="Capuccino">
+        <h2>Capuccino $2.20</h2>
+        <p>Cappuccino is essentially a latte made with more foam than steamed milk and is often topped with a hit of cocoa powder or cinnamon.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\americano.jpg" alt="Americano">
+        <h2>Americano $3.00</h2>
+        <p>Americanos are the go-to coffee for those seeking that caffeine kick during sluggish midday. This type of coffee is notoriously high in caffeine and has a flavour profile similar to black coffee.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\espresso.jpg" alt="Espresso">
+        <h2>Espresso $1.50</h2>
+        <p>Who doesn’t love an espresso? This coffee drink is distinguished for its concentrated flavour, syrupy content and layer of foam.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\double-espresso.jpg" alt="Doppio">
+        <h2>Doppio $2.50</h2>
+        <p>Simply known as the double espresso, Doppio means “double” in Italian explains the commonly called a standard double — so double or nothing.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\cortado.jpg" alt="Cortado">
+        <h2>Cortado $2.00</h2>
+        <p>Like yin and yang, the cortado is the perfect balance of espresso and warm steamed milk.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\mocha.jpg" alt="Mocha">
+        <h2>Mocha $3.00</h2>
+        <p>The mocha is a chocolate espresso drink with steamed milk and foam and is an exquisite mix of coffee and hot chocolate.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\red-eye.jpg" alt="Red Eye">
+        <h2>Red Eye $3.00</h2>
+        <p>The red eye is an American type of coffee that combines brewed coffee with an espresso shot.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\frappucino.jpg" alt="Frappuccino">
+        <h2>Frappuccino $3.50</h2>
+        <p>Every millennial has heard of the Frappuccino. Its name is a portmanteau frappe and cappuccino and is a trademark brand of Starbucks.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\galao.jpg" alt="Galão">
+        <h2>Galão $2.00</h2>
+        <p>This Portuguese coffee drink is similar to a latte & cappuccino and is almost synonymous with breakfast best enjoyed with hearty pastries.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\breve.jpg" alt="Breve">
+        <h2>Breve $3.00</h2>
+        <p>The breve is a decadent twist to the average espresso.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\cafe-au-lait.jpg" alt="Café au Lait">
+        <h2>Café au Lait $3.00</h2>
+        <p>Pronounced “cafe oh ley”, is typically made with French press coffee instead of an espresso shot to bring out the different flavours.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\lungo.jpg" alt="Lungo">
+        <h2>Lungo $1.50</h2>
+        <p>You may think that the lungo is another type of coffee, but it’s the new espresso.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\macchiato.jpg" alt="Macchiato">
+        <h2>Macchiato $2.00</h2>
+        <p>The macchiato is another espresso-based coffee that’s topped with foam.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\ristretto.jpg" alt="Ristretto">
+        <h2>Ristretto $3.00</h2>
+        <p>Ristretto is simply half of a shot of espresso. The result? A more concentrated coffee with an exquisite balance of elements than the regular espresso.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\affogato.jpg" alt="Affogato">
+        <h2>Affogato $2.50</h2>
+        <p>This coffee is the only excuse for you to enjoy a scoop of ice cream during the day. Affogatos are more of a dessert coffee than a regular cup of coffee.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\irish-coffee.jpg" alt="Irish">
+        <h2>Irish $4.00</h2>
+        <p>Hot coffee, sugar, whipped cream, and whiskey — that’s what Irish coffee is all about.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\nitro.jpg" alt="Nitro">
+        <h2>Nitro $2.25</h2>
+        <p>Characteristically, nitro is something we wish to be — smooth, clean and cool.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\cold-brew.jpg" alt="Cold Brew">
+        <h2>Cold Brew $3.50</h2>
+        <p>Cold brew coffee has become more and more popular over the past decade.</p>
+    </div>
+
+    <div class="coffee-item">
+        <img src="c:\Users\lander\Downloads\vienna.jpg" alt="Vienna">
+        <h2>Vienna $2.75</h2>
+        <p>Vienna is a type of coffee that’s traditional cream-based — and that’s a good thing for the palate.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
